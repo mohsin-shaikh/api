@@ -1,6 +1,6 @@
 # API
 
-### GET https://mockend.com/org/repo/posts
-### GET https://mockend.com/org/repo/posts/<id>
-### GET https://mockend.com/org/repo/comments
-### GET https://mockend.com/org/repo/comments/<id>
+### GET https://mockend.com/mohsin-shaikh/api/posts
+### GET https://mockend.com/mohsin-shaikh/api/posts/<id>
+### GET https://mockend.com/mohsin-shaikh/api/comments
+### GET https://mockend.com/mohsin-shaikh/api/comments/<id>
