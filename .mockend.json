@@ -9,5 +9,17 @@
   "Comment": {
     "body": "string",
     "post": "Post"
+  },
+  "Product": {
+    "name": "string",
+    "price": "int",
+    "active": "boolean"
+  },
+  "User": {
+    "name" : {
+      "first": "string",
+    "last": "string"
+    },
+    "email":"string"
   }
 }
