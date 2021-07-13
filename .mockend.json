@@ -38,7 +38,7 @@
       "hasMany": "Orderline"
     }
   },
-  "OrderLine": {
+  "Orderline": {
     "id": {
       "string": {}
     },
