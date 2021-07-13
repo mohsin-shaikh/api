@@ -1,32 +1,4 @@
 {
-  "Post": {
-    "title": {
-      "string": {}
-    },
-    "views": {
-      "int": { "min": 0, "max": 9000 }
-    },
-    "published": {
-      "boolean": {}
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "comments": {
-      "hasMany": "Comment"
-    }
-  },
-  "Comment": {
-    "body": {
-      "string": {}
-    },
-    "post": {
-      "belongsTo": "Post"
-    }
-  },
   "Order": {
     "orderNumber": {
       "int": { "min": 0, "max": 999999 }
