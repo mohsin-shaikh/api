@@ -31,8 +31,8 @@
     "orderNumber": {
       "int": { "min": 0, "max": 9999 }
     },
-    "orderLines": {
-      "hasMany": "OrderLine"
+    "orderlines": {
+      "hasMany": "Orderline"
     }
   },
   "OrderLine": {
