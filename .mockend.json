@@ -48,7 +48,7 @@
     "price": {
       "int": { "min": 0, "max": 999999 }
     },
-    "post": {
+    "order": {
       "belongsTo": "Order"
     }
   },
@@ -56,7 +56,7 @@
     "name": {
       "string": {}
     },
-    "post": {
+    "order": {
       "belongsTo": "Order"
     }
   }
