@@ -28,6 +28,9 @@
     }
   },
   "Order": {
+    "id": {
+      "string": {}
+    },
     "orderNumber": {
       "int": { "min": 0, "max": 9999 }
     },
