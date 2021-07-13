@@ -39,6 +39,9 @@
     }
   },
   "OrderLine": {
+    "id": {
+      "string": {}
+    },
     "sku": {
       "int": { "min": 0, "max": 999999 }
     },
