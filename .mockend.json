@@ -29,7 +29,7 @@
   },
   "Order": {
     "orderNumber": {
-      "int": { "min": 0, "max": 999999 }
+      "int": { "min": 0, "max": 9999 }
     },
     "orderLines": {
       "hasMany": "OrderLine"
@@ -40,13 +40,13 @@
       "string": {}
     },
     "sku": {
-      "int": { "min": 0, "max": 999999 }
+      "int": { "min": 0, "max": 9999 }
     },
     "qantity": {
-      "int": { "min": 0, "max": 10000 }
+      "int": { "min": 0, "max": 9999 }
     },
     "price": {
-      "int": { "min": 0, "max": 999999 }
+      "int": { "min": 0, "max": 9999 }
     },
     "order": {
       "belongsTo": "Order"
