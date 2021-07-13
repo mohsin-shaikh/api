@@ -33,9 +33,6 @@
     },
     "orderLines": {
       "hasMany": "OrderLine"
-    },
-    "customer": {
-      "hasMany": "Customer"
     }
   },
   "OrderLine": {
