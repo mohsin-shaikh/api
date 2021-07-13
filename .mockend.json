@@ -1,23 +1,30 @@
 {
   "Post": {
-    "title": "string",
-    "views": "int",
-    "published": "boolean",
-    "createdAt": "date",
-    "comments": "Comment[]"
+    "title": {
+      "string": {}
+    },
+    "views": {
+      "int": { "min": 0, "max": 9000 }
+    },
+    "published": {
+      "boolean": {}
+    },
+    "createdAt": {
+      "dateTime": {
+        "min": "2010-01-01T00:00:00Z",
+        "max": "2020-12-31T23:59:59Z"
+      }
+    },
+    "comments": {
+      "hasMany": "Comment"
+    }
   },
   "Comment": {
-    "body": "string",
-    "post": "Post"
-  },
-  "Product": {
-    "name": "string",
-    "price": "int",
-    "active": "boolean"
-  },
-  "User": {
-    "first": "string",
-    "last": "string",
-    "email": "string"
+    "body": {
+      "string": {}
+    },
+    "post": {
+      "belongsTo": "Post"
+    }
   }
 }
