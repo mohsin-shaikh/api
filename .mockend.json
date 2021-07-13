@@ -26,5 +26,32 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "Order": {
+    "orderNumber": {
+      "int": { "min": 0, "max": 999999 }
+    },
+    "orderLines": {
+      "hasMany": "OrderLine"
+    },
+    "Customer": {
+      "hasOne": "Customer"
+    }
+  },
+  "OrderLine": {
+    "sku": {
+      "int": { "min": 0, "max": 999999 }
+    },
+    "qantity": {
+      "int": { "min": 0, "max": 10000 }
+    },
+    "price": {
+      "int": { "min": 0, "max": 999999 }
+    }
+  },
+  "Customer": {
+    "name": {
+      "string": {}
+    }
   }
 }
