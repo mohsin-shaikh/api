@@ -1,5 +1,7 @@
 # API
 
+#### Sample Test
+
 #### GET https://mockend.com/mohsin-shaikh/api/posts
 #### GET https://mockend.com/mohsin-shaikh/api/posts/1
 
